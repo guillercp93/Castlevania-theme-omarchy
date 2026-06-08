@@ -25,6 +25,9 @@
 @define-color bright_white #f0e8d8;
 @define-color selection_bg #3d2d5e;
 @define-color selection_fg #f0e8d8;
+@define-color accent #d4af37;
+@define-color warm-gold #eac060;
+
 
 /* Adwaita Color Overrides */
 @define-color accent_bg_color @blue;
