@@ -35,3 +35,12 @@ set -g fish_pager_color_prefix $sky
 set -g fish_pager_color_completion $foreground
 set -g fish_pager_color_description $comment
 set -g fish_pager_color_selected_background --background=$selection
+
+# Castlevania fastfetch greeting
+function fish_greeting
+    if test -f ~/.config/omarchy/current/theme/fastfetch.jsonc
+        fastfetch --config ~/.config/omarchy/current/theme/fastfetch.jsonc 2>/dev/null
+    else
+        fastfetch
+    end
+end
