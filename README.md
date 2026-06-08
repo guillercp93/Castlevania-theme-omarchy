@@ -7,7 +7,7 @@ A dark gothic Omarchy desktop theme inspired by **Castlevania: Lament of Innocen
 - 🎨 **Eternal Night palette** — Deep navy (#161a26), parchment (#ddd4c0), sacred gold (#d4af37), blood crimson (#b02a2a)
 - 🖼️ **Custom backgrounds** — Leon Belmont, Alucard, Trevor Belmont
 - 🔐 **Hyprlock** — Styled lock screen with gold accents
-- 🚀 **Plymouth boot splash** — Alucard (SOTN) animation with Sword Familiar progress bar
+- 🚀 **Plymouth boot splash** — Alucard (SOTN) animation with Sword Familiar progress bar and LUKS password dialog
 - 🎯 **Full app coverage** — Waybar, GTK4, Walker, Wofi, SwayOSD, Mako, btop, Neovim, VS Code, Zed, Discord, Warp, Cava
 - 🐚 **Fish shell** — Themed colors with visible autosuggestions
 
@@ -19,7 +19,7 @@ omarchy theme set castlevania
 
 ### Plymouth Boot Splash
 
-Boot animation featuring **Alucard** from *Castlevania: Symphony of the Night* with the **Sword Familiar** as a loading progress bar.
+Boot animation featuring **Alucard** from *Castlevania: Symphony of the Night* with the **Sword Familiar** as a loading progress bar. Includes a disk unlock password dialog (lock icon + golden entry field with bullet characters) for LUKS-encrypted disks.
 
 **Credits:** Based on [andre-leonardo/plymouth-theme-alucardSOTN](https://github.com/andre-leonardo/plymouth-theme-alucardSOTN) (GPL-3.0). Alucard and Sword Familiar © Konami Digital Entertainment.
 

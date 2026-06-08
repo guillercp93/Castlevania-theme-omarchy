@@ -8,6 +8,6 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 echo "Installing Castlevania Plymouth theme..."
-cp -r "$(dirname "$0")" /usr/share/plymouth/themes/castlevania
+cp -r "$(dirname "$0")"/. /usr/share/plymouth/themes/castlevania/
 plymouth-set-default-theme -R castlevania
 echo "Done! Castlevania Plymouth theme installed. Reboot to see the change."
