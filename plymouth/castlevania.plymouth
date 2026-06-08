@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Castlevania: Lament of Inocence
+Description=Alucard (SOTN) boot splash — Castlevania Omarchy theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/castlevania
+ScriptFile=/usr/share/plymouth/themes/castlevania/castlevania.script

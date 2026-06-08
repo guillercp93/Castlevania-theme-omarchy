@@ -7,7 +7,7 @@ A dark gothic Omarchy desktop theme inspired by **Castlevania: Lament of Innocen
 - 🎨 **Eternal Night palette** — Deep navy (#161a26), parchment (#ddd4c0), sacred gold (#d4af37), blood crimson (#b02a2a)
 - 🖼️ **Custom backgrounds** — Leon Belmont, Alucard, Trevor Belmont
 - 🔐 **Hyprlock** — Styled lock screen with gold accents
-- 🚀 **Plymouth support** — Boot screen with beltmont emblem
+- 🚀 **Plymouth boot splash** — Alucard (SOTN) animation with Sword Familiar progress bar
 - 🎯 **Full app coverage** — Waybar, GTK4, Walker, Wofi, SwayOSD, Mako, btop, Neovim, VS Code, Zed, Discord, Warp, Cava
 - 🐚 **Fish shell** — Themed colors with visible autosuggestions
 
@@ -17,9 +17,21 @@ A dark gothic Omarchy desktop theme inspired by **Castlevania: Lament of Innocen
 omarchy theme set castlevania
 ```
 
-Manual Plymouth:
+### Plymouth Boot Splash
+
+Boot animation featuring **Alucard** from *Castlevania: Symphony of the Night* with the **Sword Familiar** as a loading progress bar.
+
+**Credits:** Based on [andre-leonardo/plymouth-theme-alucardSOTN](https://github.com/andre-leonardo/plymouth-theme-alucardSOTN) (GPL-3.0). Alucard and Sword Familiar © Konami Digital Entertainment.
+
 ```bash
+# Install via helper script:
+sudo bash ~/.config/omarchy/themes/castlevania/plymouth/install-plymouth.sh
+
+# Or via Omarchy (if configured):
 sudo omarchy plymouth set by theme castlevania
+
+# Preview without reboot:
+sudo plymouthd ; sudo plymouth --show-splash ; sleep 5 ; sudo plymouth quit
 ```
 
 ## Palette

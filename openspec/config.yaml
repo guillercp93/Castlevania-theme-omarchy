@@ -1,0 +1,39 @@
+# OpenSpec SDD Configuration — Castlevania Omarchy Theme
+schema: spec-driven
+
+context: |
+  Tech stack: Omarchy theme framework (Linux desktop theming)
+  App coverage: Hyprland, Hyprlock, Hyprpaper, Waybar, Walker, Wofi, SwayOSD, Mako, btop,
+    Cava, Fastfetch, GTK, Fish shell, Neovim, VS Code, Zed, Chromium, Vencord (Discord), Warp
+  Config formats: TOML (colors.toml), JSONC (fastfetch.jsonc, vscode.json), CSS (waybar, wofi,
+    walker, swayosd, gtk), Lua (hyprland, neovim), INI (hyprlock, mako, btop), Fish script
+    (colors.fish), YAML (warp), plain text (cava_theme, icons.theme, chromium.theme)
+  Palette: Eternal Night — #161a26 BG, #ddd4c0 FG, #d4af37 gold accent, #b02a2a crimson
+  Architecture: Single theme package consumed via `omarchy theme set castlevania`
+  Testing: None — pure configuration theme (no runtime code to test)
+  Strict TDD: false
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+    - Specify which apps the change touches
+  specs:
+    - Use Given/When/Then for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+    - Include palette color references when adding new color vars
+  design:
+    - Reference exact config keys modified
+    - Note omarchy version compatibility when relevant
+  tasks:
+    - Group by component/app, use hierarchical numbering
+    - Keep tasks completable in one session
+  apply:
+    - Follow existing config patterns for each app
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""
+    build_command: ""
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas
