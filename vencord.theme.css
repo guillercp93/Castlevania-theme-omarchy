@@ -1,0 +1,29 @@
+/**
+* @name base16 Discord
+* @author @bypass_
+* @version 0.1.0
+* @description Built using Castlevania palette
+* @source https://github.com/imbypass/base16-Discord
+**/
+
+/* import the parent */
+@import url('https://imbypass.github.io/base16-discord/omarchy-discord.theme.css');
+
+:root {
+    --color00: #161a26;
+    --color01: #b02a2a;
+    --color02: #6a9a7a;
+    --color03: #d4af37;
+    --color04: #4a5e8a;
+    --color05: #7a4aaa;
+    --color06: #5a8aaa;
+    --color07: #ddd4c0;
+    --color08: #242e3e;
+    --color09: #dd4a4a;
+    --color10: #7aaa7a;
+    --color11: #eac060;
+    --color12: #5a7a9a;
+    --color13: #9a6acc;
+    --color14: #6aaacc;
+    --color15: #f0e8d8;
+}

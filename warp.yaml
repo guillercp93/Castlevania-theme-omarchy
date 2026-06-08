@@ -1,0 +1,26 @@
+name: Castlevania
+accent: "#d4af37"
+cursor: "#d4c8b4"
+background: "#161a26"
+foreground: "#ddd4c0"
+details: darker
+
+terminal_colors:
+  normal:
+    black: "#161a26"
+    red: "#b02a2a"
+    green: "#6a9a7a"
+    yellow: "#d4af37"
+    blue: "#4a5e8a"
+    magenta: "#7a4aaa"
+    cyan: "#5a8aaa"
+    white: "#ddd4c0"
+  bright:
+    black: "#242e3e"
+    red: "#dd4a4a"
+    green: "#7aaa7a"
+    yellow: "#eac060"
+    blue: "#5a7a9a"
+    magenta: "#9a6acc"
+    cyan: "#6aaacc"
+    white: "#f0e8d8"
